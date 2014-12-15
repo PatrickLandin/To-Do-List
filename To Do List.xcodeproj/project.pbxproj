@@ -409,6 +409,7 @@
 				EC510CF21A3E6A0D00D4B8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC510CF31A3E6A0D00D4B8ED /* Build configuration list for PBXNativeTarget "To Do ListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				EC510CF51A3E6A0D00D4B8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

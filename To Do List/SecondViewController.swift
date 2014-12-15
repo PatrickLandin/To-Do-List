@@ -22,7 +22,10 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         
         
         self.view.endEditing(true)
-    }
+        
+    }  //  Created immutable array to use in NSUserDefaults and then saved changes to array with button click.
+       //  
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,11 +42,14 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         
         return true
-    }
+        
+    }  //  Resigning keyboard when user hits enter key.
+    
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         self.view.endEditing(true)
-    }
+        
+    }  //  Resigning keyboard when user presses anywhere but the keyboard.
 
 
 }

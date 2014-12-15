@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="78J-KQ-qJS">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="35" width="600" height="565"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TODO_ITEM" id="XX5-XD-ZKo">
@@ -41,7 +41,7 @@
                             <constraint firstAttribute="bottom" secondItem="78J-KQ-qJS" secondAttribute="bottom" id="H7b-NG-vwK"/>
                             <constraint firstItem="78J-KQ-qJS" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-16" id="KxZ-Ws-PWC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="78J-KQ-qJS" secondAttribute="trailing" constant="-16" id="ghz-B0-aBx"/>
-                            <constraint firstItem="78J-KQ-qJS" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="20" id="pdi-KY-JYQ"/>
+                            <constraint firstItem="78J-KQ-qJS" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="35" id="pdi-KY-JYQ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="To Do List" image="first" id="acW-dT-cKf"/>
@@ -66,7 +66,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8q1-gr-vlQ">
-                                <rect key="frame" x="54" y="134" width="300" height="30"/>
+                                <rect key="frame" x="54" y="155" width="300" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="h6r-Q1-mm4"/>
                                 </constraints>
@@ -77,7 +77,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M28-cX-5wT">
-                                <rect key="frame" x="54" y="203" width="103" height="44"/>
+                                <rect key="frame" x="54" y="224" width="103" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Add item">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -87,7 +87,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add your new to do item:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vk1-EP-eZo">
-                                <rect key="frame" x="54" y="65" width="287" height="32"/>
+                                <rect key="frame" x="54" y="85" width="287" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -98,9 +98,9 @@
                             <constraint firstItem="vk1-EP-eZo" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="38" id="46F-4p-ale"/>
                             <constraint firstItem="vk1-EP-eZo" firstAttribute="leading" secondItem="M28-cX-5wT" secondAttribute="leading" id="aGa-ze-2hm"/>
                             <constraint firstItem="vk1-EP-eZo" firstAttribute="leading" secondItem="8q1-gr-vlQ" secondAttribute="leading" id="c7g-Hi-Gk3"/>
-                            <constraint firstItem="8q1-gr-vlQ" firstAttribute="top" secondItem="vk1-EP-eZo" secondAttribute="bottom" constant="37" id="ckQ-ET-lNY"/>
+                            <constraint firstItem="8q1-gr-vlQ" firstAttribute="top" secondItem="vk1-EP-eZo" secondAttribute="bottom" constant="38" id="ckQ-ET-lNY"/>
                             <constraint firstItem="M28-cX-5wT" firstAttribute="top" secondItem="8q1-gr-vlQ" secondAttribute="bottom" constant="39" id="lEX-LS-l64"/>
-                            <constraint firstItem="vk1-EP-eZo" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="45" id="uQ1-UF-RZC"/>
+                            <constraint firstItem="vk1-EP-eZo" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="65" id="uQ1-UF-RZC"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add Item" image="second" id="cPa-gy-q4n"/>
